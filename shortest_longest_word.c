@@ -1,7 +1,7 @@
 //24. У наданому реченні знайти найкоротше та найдовше слово.
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+//#include <string.h>
 #define MAX 1024*1024
 
 int requestMaxSize();
@@ -162,8 +162,6 @@ int readSentenceFromFile(char * fileName, char sentence[], int limit)
                          sentence[size]== 10 || //== '\n' == LF - new line
                          sentence[size]== 13    //== '\r' == CR Carriage Return
                          ;
-        
-        
     }
     sentence[size] = '\0';
     fclose(in);
@@ -189,7 +187,7 @@ File should be in same path as program or relative/full path to file \
 }
 //---------------------------------------------------------------------------------
 /*
-    /part of code from requestFileName
+    //part of code from requestFileName
     //check if buffer is empty. Is not empty -> "endOfBuf" will obtain fullSizeOfBuff-255 left symbols
     char endOfBuf[255];
     scanf("%255s", endOfBuf);
