@@ -102,7 +102,7 @@ int main()
         {
             maxWord[j] = sentence[i];
         }
-        printf("Largest of words is \"%s\", smallest of words is \"%s\"\n", maxWord, minWord);
+        printf("Longest of words is \"%s\", size:%d; shortest of words is \"%s\", size:%d.\n", maxWord, maxWordSz, minWord, minWordSz);
         
     }
     
