@@ -15,7 +15,7 @@ int main()
     } start, end;
     // Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz; cpu MHz: 3101.000
     double cpu_Hz = 31001000000ULL; 
-    int n = 30000000; RAND();
+    int n = RAND();
     int odd=0, even = 0;
     int * bigArray = malloc(sizeof(int)*n);
     
