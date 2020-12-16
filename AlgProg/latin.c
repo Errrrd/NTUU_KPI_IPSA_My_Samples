@@ -5,7 +5,7 @@
 int main()
 {
     unsigned int num = 0;
-
+    
     printf("please write int number form 1 to 100:");
     if(scanf("%u", &num) != 1){
         printf("\nWrong input. Please input an integer variable next time\n");
@@ -13,9 +13,9 @@ int main()
     } else if ( num < 1 || num > 100 ) {
         printf("\nNothing for print (out of range).\n");
     } else {
-        int tmpNum = num;
         char latinNum[9]; 
         int i = 0;
+        int tmpNum = num;
         
         if(tmpNum/100 > 0)
         {
@@ -68,10 +68,10 @@ int main()
             {
                 
                 latinNum[i++]='I';;
-                tmpNum --;
+                tmpNum--;
             }
         }
-        latinNum[i] = 0;
+        latinNum[i] = 0; //='\0'
         printf("Latin number for %d == %s\n", num, latinNum);
     }
     return 0;

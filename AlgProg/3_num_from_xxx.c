@@ -13,13 +13,11 @@ int main()
     } else if ( num < 1 || num > 27 ) {
         printf("\nNothing for print\n");
     } else {
-        for( int i = 9; i > 0; i-- )
+        for( int num1 = 9; num1 > 0; num1-- )
         {
-            int num1 = i;
-            int tmpNum = num -i;
-            for( int j = 0; tmpNum - j >= 0 && j < 10; j++){
-                if( tmpNum - j <= 9)
-                    printf("%d%d%d ", num1, j, tmpNum-j);
+            int tmpNum = num - num1;
+            for( int num2 = 0; tmpNum - num2 >= 0 && num2 < 10; num2++){
+                if( tmpNum - num2 <= 9) printf("%d%d%d ", num1, num2, tmpNum-num2);
                 
             }
         }
