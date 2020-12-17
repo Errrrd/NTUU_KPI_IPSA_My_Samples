@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define EPS 0.0001
+#define EPS 0.00000001
 
 int main()
 {
@@ -22,14 +22,14 @@ int main()
         
         //first Sum:
         fctX *=x;
-        kSum = (double)fctX/(double)(k++*expX);
-        tmpEps = kSum - kSum0;
+        kSum = (double)fctX/(double)(k*expX);
+        tmpEps = kSum;
         //other sum
-        while( EPS < tmpEps && k > 0 ){ //int k > 2^31 is < 0
+        for( k=2; EPS < tmpEps && k > 0; k++ ){ //int k > 2^31 is < 0
             expX *= x;
             kSum0 = kSum;
-            kSum += (double)fctX/(double)(k++*expX);
-            tmpEps = kSum - kSum0;
+            tmpEps = (double)fctX/((double)k*(double)expX);
+            kSum += tmpEps;
             //printf("eps:[%g-%g]=%e\n", kSum, kSum0, tmpEps );
         }
         xSum += kSum;

@@ -1,0 +1,185 @@
+erd@SIOR:~/STUDY/ALG_PROG_CODE/NTUU_KPI_IPSA_My_Samples/AlgProg$ ./rmch
+Text: set please a text (10240 bytes max):I'm sorry    bbuttt tteexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+Literal (please set different letters): set please a text (26 bytes max):r
+Your text (size=72):
+I'm sorry    bbuttt tteexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+r
+Your literal after check for double (size=1):
+r
+
+I'm sorry    bbuttt tteexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+10: :I'm sorry   bbutt tteexxxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+10: :I'm sorry  bbut tteexxxxttttt beeffffore    waaassss wwwroonnggg...!!!
+
+10: :I'm sorry bbut teexxxxtttttt beeffffore    waaassss wwwroonnggg...!!!
+
+11:b:I'm sorry but texxxxttttttt beeffffore    waaassss wwwroonnggg...!!!
+
+17:x:I'm sorry but texxxttttttt beeffffore    waaassss wwwroonnggg...!!!
+
+17:x:I'm sorry but texxttttttt beeffffore    waaassss wwwroonnggg...!!!
+
+17:x:I'm sorry but texttttttt beefffoore    waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry but textttttt beeffforee    waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry but texttttt beefffore     waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry but textttt beefffore     waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry but texttt beefffore     waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry but textt beefffore     waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry but text beefffore    wwaaassss wwwroonnggg...!!!
+
+21:e:I'm sorry but text befffore    waaasssss wwwroonnggg...!!!
+
+22:f:I'm sorry but text beffore    waassssss wwwroonnggg...!!!
+
+22:f:I'm sorry but text before    wasssssss wwwroonnggg...!!!
+
+26: :I'm sorry but text before   wasssssss wwwroonnggg...!!!
+
+26: :I'm sorry but text before  wasssssss wwwroonnggg...!!!
+
+26: :I'm sorry but text before wasssssss wwwroonnggg...!!!
+
+29:s:I'm sorry but text before wassssss wwwroonnggg...!!!
+
+29:s:I'm sorry but text before wasssss wwwroonnggg...!!!
+
+29:s:I'm sorry but text before wassss wwwroonnggg...!!!
+
+29:s:I'm sorry but text before wasss wwwroonnggg...!!!
+
+29:s:I'm sorry but text before wass wwwroonnggg...!!!
+
+29:s:I'm sorry but text before was wwwroonnggg...!!!
+
+31:w:I'm sorry but text before was wwroonnggg...!!!
+
+31:w:I'm sorry but text before was wroonnggg...!!!
+
+33:o:I'm sorry but text before was wronnggg...!!!
+
+34:n:I'm sorry but text before was wronggg...!!!
+
+35:g:I'm sorry but text before was wrongg...!!!
+
+35:g:I'm sorry but text before was wrong...!!!
+
+36:.:I'm sorry but text before was wrong..!!!
+
+36:.:I'm sorry but text before was wrong.!!!
+
+37:!:I'm sorry but text before was wrong.!!
+
+37:!:I'm sorry but text before was wrong.!
+Your text after update (size=37, last=0):
+I'm sorry but text before was wrong.!
+erd@SIOR:~/STUDY/ALG_PROG_CODE/NTUU_KPI_IPSA_My_Samples/AlgProg$ ./rmch
+
+erd@SIOR:~/STUDY/ALG_PROG_CODE/NTUU_KPI_IPSA_My_Samples/AlgProg$ ./rmch
+Text: set please a text (10240 bytes max):I'm sorry,,,,    bbbbbuttt tteexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+Literal (please set different letters): set please a text (26 bytes max):r
+Your text (size=79):
+I'm sorry,,,,    bbbbbuttt tteexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+r
+Your literal after check for double (size=1):
+r
+
+I'm sorry,,,,    bbbbbuttt tteexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+10:,:I'm sorry,,,   bbbbbuttt  tteexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+10:,:I'm sorry,,   bbbbuttt  ttteexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+10:,:I'm sorry,   bbbuttt  tttteexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+11: :I'm sorry,  bbbttt  tttteeexxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+11: :I'm sorry, bbbtt  tttteeexxxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+12:b:I'm sorry, bbtt tttteeexxxxxtttt beeffffore    waaassss wwwroonnggg...!!!
+
+12:b:I'm sorry, btt ttteeexxxxxttttt beeffffore    waaassss wwwroonnggg...!!!
+
+13:t:I'm sorry, bt tteeexxxxxtttttt beeffffore    waaassss wwwroonnggg...!!!
+
+15:t:I'm sorry, bt teeexxxxxtttttt beeffffore    waaassss wwwroonnggg...!!!
+
+16:e:I'm sorry, bt teexxxxxtttttt beeffffore    waaassss wwwroonnggg...!!!
+
+16:e:I'm sorry, bt texxxxxtttttt beeffffore    waaassss wwwroonnggg...!!!
+
+17:x:I'm sorry, bt texxxxtttttt beeffffore    waaassss wwwroonnggg...!!!
+
+17:x:I'm sorry, bt texxxtttttt beeffffore    waaassss wwwroonnggg...!!!
+
+17:x:I'm sorry, bt texxtttttt beefffoore    waaassss wwwroonnggg...!!!
+
+17:x:I'm sorry, bt textttttt beeffforre    waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry, bt texttttt beefffore     waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry, bt textttt beefffore     waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry, bt texttt beefffore     waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry, bt textt beefffore     waaassss wwwroonnggg...!!!
+
+18:t:I'm sorry, bt text beefffore    wwaaassss wwwroonnggg...!!!
+
+21:e:I'm sorry, bt text befffore    waaasssss wwwroonnggg...!!!
+
+22:f:I'm sorry, bt text beffore    waassssss wwwroonnggg...!!!
+
+22:f:I'm sorry, bt text before    wasssssss wwwroonnggg...!!!
+
+26: :I'm sorry, bt text before   wassssss wwwrroonnggg...!!!
+
+26: :I'm sorry, bt text before  wasssss wwwrrooonnggg...!!!
+
+26: :I'm sorry, bt text before wassss wwwrroooonnggg...!!!
+
+29:s:I'm sorry, bt text before wassswwwrroooonngggg...!!!
+
+29:s:I'm sorry, bt text before wasswwrroooonnggggg...!!!
+
+29:s:I'm sorry, bt text before waswwroooonnggggg....!!!
+
+30:w:I'm sorry, bt text before waswrooonnggggg.....!!!
+
+32:o:I'm sorry, bt text before waswroonnggggg.....!!!
+
+32:o:I'm sorry, bt text before waswronnggggg.....!!!
+
+33:n:I'm sorry, bt text before waswronggggg.....!!!
+
+34:g:I'm sorry, bt text before waswrongggg.....!!!
+
+34:g:I'm sorry, bt text before waswronggg.....!!!
+
+34:g:I'm sorry, bt text before waswrongg.....!!!
+
+34:g:I'm sorry, bt text before waswrong.....!!!
+
+35:.:I'm sorry, bt text before waswrong....!!!
+
+35:.:I'm sorry, bt text before waswrong...!!!
+
+35:.:I'm sorry, bt text before waswrong..!!!
+
+35:.:I'm sorry, bt text before waswrong.!!!
+
+36:!:I'm sorry, bt text before waswrong.!!
+
+36:!:I'm sorry, bt text before waswrong.!
+Your text after update (size=36, last=0):
+I'm sorry, bt text before waswrong.!
+erd@SIOR:~/STUDY/ALG_PROG_CODE/NTUU_KPI_IPSA_My_Samples/AlgProg$
