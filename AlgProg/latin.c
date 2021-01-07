@@ -28,7 +28,6 @@ int main()
             }
             if( tmpNum/50 > 0 )
             {
-                
                 latinNum[i++]='L';
                 tmpNum -= 50;
             }
@@ -40,33 +39,28 @@ int main()
             }
             while( tmpNum/10 > 0 )
             {
-                
                 latinNum[i++]='X';
                 tmpNum -= 10;
             }
             if( tmpNum/9 > 0 )
             {
-                
                 latinNum[i++]='I';
                 latinNum[i++]='X';
                 tmpNum -= 9;
             }
             if( tmpNum/5 > 0 )
             {
-                
                 latinNum[i++]='V';
                 tmpNum -= 5;
             }
             if( tmpNum/4 > 0 )
             {
-                
                 latinNum[i++]='I';
                 latinNum[i++]='V';
                 tmpNum -= 4;
             }
             while( tmpNum > 0 )
             {
-                
                 latinNum[i++]='I';;
                 tmpNum--;
             }
