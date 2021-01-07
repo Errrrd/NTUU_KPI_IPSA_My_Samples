@@ -1,0 +1,544 @@
+1
+00:00:00.05 --> 00:00:02.03
+- When creating models for 3D printing,
+
+2
+00:00:02.03 --> 00:00:04.00
+it's important to make sure that
+
+3
+00:00:04.00 --> 00:00:06.01
+its various shapes and structures
+
+4
+00:00:06.01 --> 00:00:08.03
+are thick enough to not break.
+
+5
+00:00:08.03 --> 00:00:09.07
+The minimum thickness depends on
+
+6
+00:00:09.07 --> 00:00:12.03
+several factors like the type of printer,
+
+7
+00:00:12.03 --> 00:00:13.07
+or the length of a structure,
+
+8
+00:00:13.07 --> 00:00:17.02
+or how much weight a thin area might have to hold.
+
+9
+00:00:17.02 --> 00:00:18.09
+ZBrush now lets you visualize
+
+10
+00:00:18.09 --> 00:00:21.04
+the thickness of every point on the surface.
+
+11
+00:00:21.04 --> 00:00:22.06
+So let's see how it works.
+
+12
+00:00:22.06 --> 00:00:24.06
+Now before using the visualizer,
+
+13
+00:00:24.06 --> 00:00:26.09
+you should know the size of your model.
+
+14
+00:00:26.09 --> 00:00:29.02
+You should know that it's the correct size
+
+15
+00:00:29.02 --> 00:00:31.06
+for the units that you're printing out.
+
+16
+00:00:31.06 --> 00:00:34.05
+Now there's lots of ways to deal with scale in ZBrush,
+
+17
+00:00:34.05 --> 00:00:37.09
+and it's a big topic beyond the scope of this video.
+
+18
+00:00:37.09 --> 00:00:41.06
+But let's say we've got the scale worked out for this model.
+
+19
+00:00:41.06 --> 00:00:45.06
+For example, in here under Size, under Geometry,
+
+20
+00:00:45.06 --> 00:00:47.08
+I have a height of 43
+
+21
+00:00:47.08 --> 00:00:51.03
+and I know that my units are millimeters.
+
+22
+00:00:51.03 --> 00:00:53.01
+So in order to do the visualization,
+
+23
+00:00:53.01 --> 00:00:56.02
+let's come down to Polypaint.
+
+24
+00:00:56.02 --> 00:00:57.09
+And in ZBrush 2020,
+
+25
+00:00:57.09 --> 00:01:00.09
+there is a button called From Thickness.
+
+26
+00:01:00.09 --> 00:01:01.08
+What this is going to do,
+
+27
+00:01:01.08 --> 00:01:04.03
+it's going to paint the model with colors
+
+28
+00:01:04.03 --> 00:01:07.03
+depending on how thick it is in various areas.
+
+29
+00:01:07.03 --> 00:01:11.03
+Now, this process takes longer or shorter time to do
+
+30
+00:01:11.03 --> 00:01:13.09
+depending on how many polygons
+
+31
+00:01:13.09 --> 00:01:16.02
+are on the model at any particular moment.
+
+32
+00:01:16.02 --> 00:01:17.09
+So there's subdivisions on this model.
+
+33
+00:01:17.09 --> 00:01:20.01
+If I hit D to go up in subdivisions,
+
+34
+00:01:20.01 --> 00:01:22.03
+you can see there is one point
+
+35
+00:01:22.03 --> 00:01:25.00
+almost two million active points.
+
+36
+00:01:25.00 --> 00:01:27.02
+Now that's actually kind of a lot.
+
+37
+00:01:27.02 --> 00:01:28.05
+So what I actually recommend
+
+38
+00:01:28.05 --> 00:01:31.08
+is going down to less than a million
+
+39
+00:01:31.08 --> 00:01:33.08
+to keep this from taking too long.
+
+40
+00:01:33.08 --> 00:01:35.07
+Now before we hit From Thickness,
+
+41
+00:01:35.07 --> 00:01:39.03
+we want to set the min and max thicknesses.
+
+42
+00:01:39.03 --> 00:01:42.00
+Now depending on the type of printer you're sending it to,
+
+43
+00:01:42.00 --> 00:01:43.03
+and depending on the materials
+
+44
+00:01:43.03 --> 00:01:44.09
+and all kinds of different factors,
+
+45
+00:01:44.09 --> 00:01:48.02
+there might a different minimum and maximum thicknesses
+
+46
+00:01:48.02 --> 00:01:49.09
+that you might want to use.
+
+47
+00:01:49.09 --> 00:01:51.05
+Now let's just say for the sake of argument
+
+48
+00:01:51.05 --> 00:01:53.05
+that I'm sending this to one
+
+49
+00:01:53.05 --> 00:01:56.06
+of those full color, powder-based printers.
+
+50
+00:01:56.06 --> 00:01:59.09
+Now the minimum thickness for that is two millimeters.
+
+51
+00:01:59.09 --> 00:02:04.00
+But a solid thickness that's fully desirable
+
+52
+00:02:04.00 --> 00:02:06.02
+is about three millimeters
+
+53
+00:02:06.02 --> 00:02:08.06
+for maximum structural integrity.
+
+54
+00:02:08.06 --> 00:02:10.09
+So for minimum, setting two for like,
+
+55
+00:02:10.09 --> 00:02:12.03
+the absolute minimum thickness
+
+56
+00:02:12.03 --> 00:02:15.09
+and three would be the preferred thickness.
+
+57
+00:02:15.09 --> 00:02:19.05
+Go ahead and click From Thickness now.
+
+58
+00:02:19.05 --> 00:02:21.04
+Okay, so simply what this did
+
+59
+00:02:21.04 --> 00:02:24.08
+is everything that is blue is totally safe.
+
+60
+00:02:24.08 --> 00:02:28.08
+Everything that is red is below two millimeters
+
+61
+00:02:28.08 --> 00:02:30.09
+and colors in between are in between
+
+62
+00:02:30.09 --> 00:02:33.03
+two and three millimeters.
+
+63
+00:02:33.03 --> 00:02:36.04
+Now with 3D printing, some very small structures
+
+64
+00:02:36.04 --> 00:02:37.06
+that don't stick out too far
+
+65
+00:02:37.06 --> 00:02:40.05
+like the little eye swirls and eyebrows
+
+66
+00:02:40.05 --> 00:02:42.04
+and the nose and the teeth,
+
+67
+00:02:42.04 --> 00:02:45.00
+they're probably safe even though they're red,
+
+68
+00:02:45.00 --> 00:02:47.02
+they're not really sticking out into space very far,
+
+69
+00:02:47.02 --> 00:02:50.04
+they're pretty close to the basic structure,
+
+70
+00:02:50.04 --> 00:02:52.01
+or to the underlying structure.
+
+71
+00:02:52.01 --> 00:02:52.09
+They're probably safe.
+
+72
+00:02:52.09 --> 00:02:54.09
+The ears, you might want to thicken
+
+73
+00:02:54.09 --> 00:02:56.00
+these up a little bit.
+
+74
+00:02:56.00 --> 00:02:57.01
+But definitely these wings,
+
+75
+00:02:57.01 --> 00:02:59.00
+they're really sticking far out into space.
+
+76
+00:02:59.00 --> 00:03:00.08
+They're going to be very fragile.
+
+77
+00:03:00.08 --> 00:03:02.05
+So let's also quickly look at how
+
+78
+00:03:02.05 --> 00:03:06.01
+we can use this visualization to fix up these areas.
+
+79
+00:03:06.01 --> 00:03:07.00
+We're going to use a feature that
+
+80
+00:03:07.00 --> 00:03:11.02
+we used previously in this course under Masking,
+
+81
+00:03:11.02 --> 00:03:14.05
+we're going to mask by Polypaint.
+
+82
+00:03:14.05 --> 00:03:19.07
+Go ahead and click on frame to bring this into view.
+
+83
+00:03:19.07 --> 00:03:22.04
+Just going to move this to make it easier to see.
+
+84
+00:03:22.04 --> 00:03:25.06
+And let's drag this onto the red.
+
+85
+00:03:25.06 --> 00:03:31.07
+Let's increase that tolerance to get even more of that.
+
+86
+00:03:31.07 --> 00:03:34.09
+And let's even bring in some of this green.
+
+87
+00:03:34.09 --> 00:03:39.00
+Increase that tolerance as well.
+
+88
+00:03:39.00 --> 00:03:42.00
+All right, let's click OK.
+
+89
+00:03:42.00 --> 00:03:43.05
+Now let's fade the color right now
+
+90
+00:03:43.05 --> 00:03:47.01
+so we don't see it too clearly.
+
+91
+00:03:47.01 --> 00:03:48.05
+We're going to bring it up like that
+
+92
+00:03:48.05 --> 00:03:51.05
+so we can see the model more clearly.
+
+93
+00:03:51.05 --> 00:03:55.02
+And let's invert the mask.
+
+94
+00:03:55.02 --> 00:03:56.08
+Let's blur the mask a few times
+
+95
+00:03:56.08 --> 00:04:01.02
+so that we have a soft gradation.
+
+96
+00:04:01.02 --> 00:04:02.02
+And actually, I'm going to do this
+
+97
+00:04:02.02 --> 00:04:05.00
+a different way with the Fade Opacity.
+
+98
+00:04:05.00 --> 00:04:09.08
+Let's change the display to just turn off the color.
+
+99
+00:04:09.08 --> 00:04:11.07
+Because that Fade Opacity was actually
+
+100
+00:04:11.07 --> 00:04:15.05
+turning down the mask as well.
+
+101
+00:04:15.05 --> 00:04:17.00
+Okay, so from here
+
+102
+00:04:17.00 --> 00:04:19.04
+I might want to use the inflate brush
+
+103
+00:04:19.04 --> 00:04:26.08
+hitting B on the keyboard, I and N for inflate.
+
+104
+00:04:26.08 --> 00:04:29.02
+Let's get a big draw size here.
+
+105
+00:04:29.02 --> 00:04:30.00
+Now we'll just come through
+
+106
+00:04:30.00 --> 00:04:33.01
+and start touching up some of these areas.
+
+107
+00:04:33.01 --> 00:04:33.09
+Kind of puffing them out,
+
+108
+00:04:33.09 --> 00:04:35.06
+giving them some more thickness.
+
+109
+00:04:35.06 --> 00:04:38.05
+Maybe on those ears a little bit as well.
+
+110
+00:04:38.05 --> 00:04:39.08
+Maybe just a little bit on those toes,
+
+111
+00:04:39.08 --> 00:04:44.09
+they were kind of red.
+
+112
+00:04:44.09 --> 00:04:46.07
+Okay, let's see how this looks.
+
+113
+00:04:46.07 --> 00:04:48.01
+So, I'm going to hold down control,
+
+114
+00:04:48.01 --> 00:04:49.03
+click and drag in an open area
+
+115
+00:04:49.03 --> 00:04:51.00
+to clear that mask.
+
+116
+00:04:51.00 --> 00:04:54.00
+And now let's come back down to,
+
+117
+00:04:54.00 --> 00:04:55.04
+actually let's make sure we've got
+
+118
+00:04:55.04 --> 00:04:58.05
+our color turned back on,
+
+119
+00:04:58.05 --> 00:05:00.02
+and now we'll go to Polypaint.
+
+120
+00:05:00.02 --> 00:05:04.07
+And let's run that From Thickness one more time.
+
+121
+00:05:04.07 --> 00:05:05.07
+Okay, great.
+
+122
+00:05:05.07 --> 00:05:08.06
+So you can see that has really improved
+
+123
+00:05:08.06 --> 00:05:10.05
+the thickness in this area.
+
+124
+00:05:10.05 --> 00:05:11.05
+And if you wanted to,
+
+125
+00:05:11.05 --> 00:05:13.05
+you could go through and adjust some
+
+126
+00:05:13.05 --> 00:05:15.06
+of these other areas once again.
+
+127
+00:05:15.06 --> 00:05:18.07
+However depending on how you're going to use this model
+
+128
+00:05:18.07 --> 00:05:21.02
+and the material you use and how well
+
+129
+00:05:21.02 --> 00:05:24.05
+these thinner areas are attached to thicker areas,
+
+130
+00:05:24.05 --> 00:05:27.00
+you might not need to adjust for that.
+
+131
+00:05:27.00 --> 00:05:29.01
+There's always special circumstances
+
+132
+00:05:29.01 --> 00:05:31.01
+where you can get away with things
+
+133
+00:05:31.01 --> 00:05:33.03
+being a little thin or you might need
+
+134
+00:05:33.03 --> 00:05:35.07
+things to be even thicker than the recommended thickness,
+
+135
+00:05:35.07 --> 00:05:38.08
+but this visualizer is a great starting point
+
+136
+00:05:38.08 --> 00:05:40.01
+for getting good results.
+

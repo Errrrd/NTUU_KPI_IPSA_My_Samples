@@ -92,13 +92,13 @@ int checkTextForDouble(char text[], int textLen, char lit[], int litLen)
     return newSize;
 }
 
-void customStrCpy(char * src, char * dest){
+void customStrCpy(char * dest, char * src){
     int i=0;
     while( *src != 0 && *dest != 0 )
     {
-        *src = *dest;
+        *dest = *src;
         src++;
         dest++;
     }
-    *src=0;
+    *dest=0;
 }
