@@ -22,8 +22,13 @@ int main()
         struct s32 { long th, tl; } t32;
     } start, end;
     // Intel(R) Core(TM) i5-3450 CPU @ 3.10GHz; cpu MHz: 3101.000
-    double cpu_Hz = 31001000000ULL; 
-    
+    double cpu_Hz = 31001000000ULL;
+    long long unsigned int start_sh = 0;
+    long long unsigned int end_sh = 0;
+    long long unsigned int start_st = 0;
+    long long unsigned int end_st = 0;
+    long long unsigned int start_all = 0;
+    long long unsigned int end_all = 0;
     char text[MAX+1];
     char fileName[256]; fileName[255] = 0;
     int textSize = MAX;
@@ -46,15 +51,16 @@ int main()
     printf("\nInput please word for search (len <= 255 chars):");
     scanf("%255s", word);
     while(getchar()!='\n'){}
+    //start time for all
     asm("rdtsc\n":"=a"(start.t32.th),"=d"(start.t32.tl));
-    long long unsigned int start_all = start.t64;
+    start_all = start.t64;
     
     for( int i=0; i < preLast; i++){
          printf("\"%s\", ", words[i]);
     }
     if (preLast > 0) {printf("\"%s\"\n", words[preLast]);}
     asm("rdtsc\n":"=a"(start.t32.th),"=d"(start.t32.tl));
-    long long unsigned int start_sh = start.t64;
+    start_sh = start.t64;
     int idx = -1;
     for( int i=0; i < arrSize; i++){
         char * tmpWord = words[i];
@@ -64,26 +70,26 @@ int main()
         }
     }
     asm("rdtsc\n":"=a"(end.t32.th),"=d"(end.t32.tl));
-    long long unsigned int end_sh = end.t64;
+    end_sh = end.t64;
     if (idx > -1){
         printf ("\nword \"%s\" has index %d in word array (from 0)\n", word, idx);
     } else {
         printf ("\nword \"%s\" not found\n", word);
     }
-    printf("Pres Enter to continue...\n");
-    getchar();
+    //printf("Pres Enter to continue...\n");
+    //getchar();
     //line search end
     asm("rdtsc\n":"=a"(start.t32.th),"=d"(start.t32.tl));
-    long long unsigned int start_st = start.t64;
+    start_st = start.t64;
     quickSort( words, 0, arrSize-1);
     asm("rdtsc\n":"=a"(end.t32.th),"=d"(end.t32.tl));
-    long long unsigned int end_st = end.t64;
+    end_st = end.t64;
     for( int i=0; i < preLast; i++){
          printf("\"%s\", ", words[i]);
     }
     if (preLast > 0) {printf("\"%s\"\n", words[preLast]);}
     asm("rdtsc\n":"=a"(end.t32.th),"=d"(end.t32.tl));
-    long long unsigned int end_all = end.t64;
+    end_all = end.t64;
     
     printf("\nTime of line search: %g sec. (%lld - %lld)\n", (end_sh-start_sh)/cpu_Hz, end_sh, start_sh);
     printf("\nTime Quick sort: %g sec. (%lld - %lld)\n", (end_st-start_st)/cpu_Hz, end_st, start_st);
