@@ -27,6 +27,7 @@ void addToTail(node** headAddr, node* newTail);
 void addToHead(node** headAddr, node* newHead); //а) додавання елемента у голову списку;
 void remFromHead(node** headAddr); //б) видалення елемента з голови списку;
 void switchMinAndMax(node** headAddr); //в) поміняти місцями найбільший та найменший елементи;
+void switchMinAndMaxByValue(node** headAddr); //в) поміняти місцями найбільший та найменший елементи - тільки їх значення
 void printList (node * head); //г) надрукувати весь список, формат: “h: hour, m: minute”;
 void freeList(node** headAddr ); //д) видалити весь список.
 
@@ -44,15 +45,16 @@ int main(){
     }
     printList(head);
     
-    printf("Add new element to Head\n");
+    printf("\nAdd new element to Head");
     addToHead(&head, createNodeGen());
     printList(head);
     
-    printf("switch Min and Max element\n");
+    printf("\nswitch Min and Max element: ");
     switchMinAndMax(&head);
+    //switchMinAndMaxByValue(&head);
     printList(head);
     
-    printf("Remove element from Head\n");
+    printf("\nRemove element from Head");
     remFromHead(&head);
     printList(head);
     
@@ -154,17 +156,68 @@ void switchMinAndMax(node** headAddr)
         }
         tmp = tmp->next;
     }
-    printf("max[h:%2d, m:%2d]\n", max->hour, max->minute);
+    
+    printf("max[h:%2d, m:%2d], ", max->hour, max->minute);
     printf("min[h:%2d, m:%2d]\n", min->hour, min->minute);
-    if (max != min){
-        if (preMax != NULL) preMax->next = min;
-        if (preMin != NULL) preMin->next = max;
-        max->next = nextMin;
-        min->next = nextMax;
+    
+    if (max != min && max != NULL && min != NULL){
+        if (max->next == min) {
+            max->next = min->next;
+            min->next = max;
+            if (preMax != NULL) preMax->next = min;
+        } else if (min->next == max) {
+            min->next = max->next;
+            max->next = min;
+            if (preMin != NULL)  preMin->next = max;
+        } else {
+            if (preMax != NULL)  preMax->next = min;
+            if (preMin != NULL)  preMin->next = max;
+            max->next = nextMin;
+            min->next = nextMax;
+        }
     }
 }
+
+void switchMinAndMaxByValue(node** headAddr)
+{
+    node * tmp = *headAddr;
+    node * max = *headAddr;
+    node * min = *headAddr;
+    
+    while (tmp !=NULL){
+        if(tmp->next != NULL){
+            if ( (max->hour < tmp->next->hour) ||
+                 (max->hour == tmp->next->hour &&
+                  max->minute < tmp->next->minute) )
+            {
+                max = tmp->next;
+            }
+            if ( (min->hour > tmp->next->hour) ||
+                 (min->hour == tmp->next->hour &&
+                  min->minute > tmp->next->minute) )
+            {
+                 min = tmp->next;
+            }
+        }
+        tmp = tmp->next;
+    }
+    
+    printf("max[h:%2d, m:%2d], ", max->hour, max->minute);
+    printf("min[h:%2d, m:%2d]\n", min->hour, min->minute);
+    
+    if (max != min && max != NULL && min != NULL){
+        int tmpH = max->hour;
+        int tmpM = max->minute;
+        
+        max->hour = min->hour;
+        max->minute = min->minute;
+        min->hour = tmpH;
+        min->minute = tmpM;
+    }
+}
+
 void printList (node * head){
-    printf("\n---------- Linked List ----------\n[ ");
+    printf("\nList: [ ");
     if(head == NULL){
         printf("is empty\n");
     } else {
@@ -174,7 +227,7 @@ void printList (node * head){
             head = head->next;
         }
     }
-    printf("{h:%d, m:%d} ]\n---------- Linked List ----------\n", head->hour, head->minute);
+    printf("{h:%d, m:%d} ]\n", head->hour, head->minute);
 }
 
 void freeList(node** headAddr ){
