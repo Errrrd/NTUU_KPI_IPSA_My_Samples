@@ -1,0 +1,198 @@
+Make array with 1000 elements... Done
+Make array with 10000 elements... Done
+Make array with 100000 elements... Done
+
+--------------------------- Shaker sort ---------------------------
+
+Sort of random array of 1000 elements
+Start sort... End sort, Time taken: 0.000183 sec., CPU 5657968 tacts
+Count of compares=324094, Count of Swaps=239335
+ok sort (each preview element <= current element)
+
+Sort of sorted array of 1000 elements
+Start sort... End sort, Time taken: 0.000001 sec., CPU 16680 tacts
+Count of compares=1998, Count of Swaps=0
+ok sort (each preview element <= current element)
+
+Sort of revers-sorted array of 1000 elements
+Start sort... End sort, Time taken: 0.000286 sec., CPU 8864479 tacts
+Count of compares=499500, Count of Swaps=499500
+ok sort (each preview element <= current element)
+
+Sort of random array of 10000 elements
+Start sort... End sort, Time taken: 0.021088 sec., CPU 653746645 tacts
+Count of compares=32482689, Count of Swaps=23851462
+ok sort (each preview element <= current element)
+
+Sort of sorted array of 10000 elements
+Start sort... End sort, Time taken: 0.000005 sec., CPU 146419 tacts
+Count of compares=19998, Count of Swaps=0
+ok sort (each preview element <= current element)
+
+Sort of revers-sorted array of 10000 elements
+Start sort... End sort, Time taken: 0.250000 sec.
+Count of compares=49995000, Count of Swaps=49995000
+ok sort (each preview element <= current element)
+
+Sort of random array of 100000 elements
+Start sort... End sort, Time taken: 21.830000 sec.
+Count of compares=3293453830, Count of Swaps=2414679697
+ok sort (each preview element <= current element)
+
+Sort of sorted array of 100000 elements
+Start sort... End sort, Time taken: 0.000050 sec., CPU 1537184 tacts
+Count of compares=199998, Count of Swaps=0
+ok sort (each preview element <= current element)
+
+Sort of revers-sorted array of 100000 elements
+Start sort... End sort, Time taken: 25.150000 sec.
+Count of compares=4999950000, Count of Swaps=4999950000
+ok sort (each preview element <= current element)
+
+-------------------------------------------------------------------
+
+--------------------------- Merge sort ---------------------------
+
+Sort of random array of 1000 elements
+Start sort... End sort, Time taken: 0.000012 sec., CPU 387445 tacts
+Count of compares=8692, Count of Swaps=9976
+ok sort (each preview element <= current element)
+
+Sort of sorted array of 1000 elements
+Start sort... End sort, Time taken: 0.000009 sec., CPU 271473 tacts
+Count of compares=4932, Count of Swaps=9976
+ok sort (each preview element <= current element)
+
+Sort of revers-sorted array of 1000 elements
+Start sort... End sort, Time taken: 0.000009 sec., CPU 289355 tacts
+Count of compares=5044, Count of Swaps=9976
+ok sort (each preview element <= current element)
+
+Sort of random array of 10000 elements
+Start sort... End sort, Time taken: 0.000148 sec., CPU 4582897 tacts
+Count of compares=119235, Count of Swaps=133616
+ok sort (each preview element <= current element)
+
+Sort of sorted array of 10000 elements
+Start sort... End sort, Time taken: 0.000105 sec., CPU 3245482 tacts
+Count of compares=64608, Count of Swaps=133616
+ok sort (each preview element <= current element)
+
+Sort of revers-sorted array of 10000 elements
+Start sort... End sort, Time taken: 0.000107 sec., CPU 3322000 tacts
+Count of compares=69008, Count of Swaps=133616
+ok sort (each preview element <= current element)
+
+Sort of random array of 100000 elements
+Start sort... End sort, Time taken: 0.001662 sec., CPU 51528454 tacts
+Count of compares=1520377, Count of Swaps=1668928
+ok sort (each preview element <= current element)
+
+Sort of sorted array of 100000 elements
+Start sort... End sort, Time taken: 0.001224 sec., CPU 37956034 tacts
+Count of compares=815024, Count of Swaps=1668928
+ok sort (each preview element <= current element)
+
+Sort of revers-sorted array of 100000 elements
+Start sort... End sort, Time taken: 0.001226 sec., CPU 38009520 tacts
+Count of compares=853904, Count of Swaps=1668928
+ok sort (each preview element <= current element)
+
+------------------------------------------------------------------
+
+------------------------- Merge sort loop -------------------------
+
+Sort of random array of 1000 elements
+Start sort... End sort, Time taken: 0.000012 sec., CPU 370050 tacts
+Count of compares=22316, Count of Swaps=9211
+ok sort (each preview element <= current element)
+
+Sort of sorted array of 1000 elements
+Start sort... End sort, Time taken: 0.000011 sec., CPU 344567 tacts
+Count of compares=22900, Count of Swaps=8984
+ok sort (each preview element <= current element)
+
+Sort of revers-sorted array of 1000 elements
+Start sort... End sort, Time taken: 0.000009 sec., CPU 285813 tacts
+Count of compares=21902, Count of Swaps=9484
+ok sort (each preview element <= current element)
+
+Sort of random array of 10000 elements
+Start sort... End sort, Time taken: 0.000154 sec., CPU 4779779 tacts
+Count of compares=311652, Count of Swaps=128735
+ok sort (each preview element <= current element)
+
+Sort of sorted array of 10000 elements
+Start sort... End sort, Time taken: 0.000106 sec., CPU 3275025 tacts
+Count of compares=317248, Count of Swaps=126320
+ok sort (each preview element <= current element)
+
+Sort of revers-sorted array of 10000 elements
+Start sort... End sort, Time taken: 0.000105 sec., CPU 3259709 tacts
+Count of compares=307250, Count of Swaps=131320
+ok sort (each preview element <= current element)
+
+Sort of random array of 100000 elements
+Start sort... End sort, Time taken: 0.001574 sec., CPU 48788697 tacts
+Count of compares=3944922, Count of Swaps=1617044
+ok sort (each preview element <= current element)
+
+Sort of sorted array of 100000 elements
+Start sort... End sort, Time taken: 0.001319 sec., CPU 40905122 tacts
+Count of compares=4001008, Count of Swaps=1592992
+ok sort (each preview element <= current element)
+
+Sort of revers-sorted array of 100000 elements
+Start sort... End sort, Time taken: 0.001361 sec., CPU 42205107 tacts
+Count of compares=3901010, Count of Swaps=1642992
+ok sort (each preview element <= current element)
+-------------------------------------------------------------------
+
+--------------------------- Count sort ---------------------------
+
+Sort of random array of 1000 elements
+Start sort... End sort, Time taken: 0.000000 sec., CPU 8471 tacts
+Count of compares=0, Count of Swaps=1000
+[element:count]: [ 0:  32]  [ 1:  35]  [ 2:  39]  [ 3:  37]  [ 4:  49]  [ 5:  30]  [ 6:  33]  [ 7:  34]  [ 8:  37]  [ 9:  31]  [10:  24]  [11:  26]  [12:  36]  [13:  23]  [14:  34]  [15:  36]  [16:  36]  [17:  28]  [18:  34]  [19:  38]  [20:  28]  [21:  24]  [22:  37]  [23:  34]  [24:  37]  [25:  39]  [26:  39]  [27:  32]  [28:  29]  [29:  29]  
+
+Sort of sorted array of 1000 elements
+Start sort... End sort, Time taken: 0.000000 sec., CPU 8353 tacts
+Count of compares=0, Count of Swaps=1000
+[element:count]: [ 0:  32]  [ 1:  35]  [ 2:  39]  [ 3:  37]  [ 4:  49]  [ 5:  30]  [ 6:  33]  [ 7:  34]  [ 8:  37]  [ 9:  31]  [10:  24]  [11:  26]  [12:  36]  [13:  23]  [14:  34]  [15:  36]  [16:  36]  [17:  28]  [18:  34]  [19:  38]  [20:  28]  [21:  24]  [22:  37]  [23:  34]  [24:  37]  [25:  39]  [26:  39]  [27:  32]  [28:  29]  [29:  29]  
+
+Sort of revers-sorted array of 1000 elements
+Start sort... End sort, Time taken: 0.000000 sec., CPU 8544 tacts
+Count of compares=0, Count of Swaps=1000
+[element:count]: [ 0:  32]  [ 1:  35]  [ 2:  39]  [ 3:  37]  [ 4:  49]  [ 5:  30]  [ 6:  33]  [ 7:  34]  [ 8:  37]  [ 9:  31]  [10:  24]  [11:  26]  [12:  36]  [13:  23]  [14:  34]  [15:  36]  [16:  36]  [17:  28]  [18:  34]  [19:  38]  [20:  28]  [21:  24]  [22:  37]  [23:  34]  [24:  37]  [25:  39]  [26:  39]  [27:  32]  [28:  29]  [29:  29]  
+
+Sort of random array of 10000 elements
+Start sort... End sort, Time taken: 0.000003 sec., CPU 80065 tacts
+Count of compares=0, Count of Swaps=10000
+[element:count]: [ 0: 335]  [ 1: 352]  [ 2: 328]  [ 3: 295]  [ 4: 327]  [ 5: 306]  [ 6: 327]  [ 7: 337]  [ 8: 328]  [ 9: 302]  [10: 330]  [11: 311]  [12: 339]  [13: 363]  [14: 350]  [15: 354]  [16: 303]  [17: 303]  [18: 313]  [19: 372]  [20: 361]  [21: 354]  [22: 349]  [23: 349]  [24: 349]  [25: 322]  [26: 327]  [27: 316]  [28: 354]  [29: 344]  
+
+Sort of sorted array of 10000 elements
+Start sort... End sort, Time taken: 0.000003 sec., CPU 80161 tacts
+Count of compares=0, Count of Swaps=10000
+[element:count]: [ 0: 335]  [ 1: 352]  [ 2: 328]  [ 3: 295]  [ 4: 327]  [ 5: 306]  [ 6: 327]  [ 7: 337]  [ 8: 328]  [ 9: 302]  [10: 330]  [11: 311]  [12: 339]  [13: 363]  [14: 350]  [15: 354]  [16: 303]  [17: 303]  [18: 313]  [19: 372]  [20: 361]  [21: 354]  [22: 349]  [23: 349]  [24: 349]  [25: 322]  [26: 327]  [27: 316]  [28: 354]  [29: 344]  
+
+Sort of revers-sorted array of 10000 elements
+Start sort... End sort, Time taken: 0.000003 sec., CPU 79941 tacts
+Count of compares=0, Count of Swaps=10000
+[element:count]: [ 0: 335]  [ 1: 352]  [ 2: 328]  [ 3: 295]  [ 4: 327]  [ 5: 306]  [ 6: 327]  [ 7: 337]  [ 8: 328]  [ 9: 302]  [10: 330]  [11: 311]  [12: 339]  [13: 363]  [14: 350]  [15: 354]  [16: 303]  [17: 303]  [18: 313]  [19: 372]  [20: 361]  [21: 354]  [22: 349]  [23: 349]  [24: 349]  [25: 322]  [26: 327]  [27: 316]  [28: 354]  [29: 344]  
+
+Sort of random array of 100000 elements
+Start sort... End sort, Time taken: 0.000026 sec., CPU 799476 tacts
+Count of compares=0, Count of Swaps=100000
+[element:count]: [ 0:3372]  [ 1:3302]  [ 2:3299]  [ 3:3263]  [ 4:3343]  [ 5:3304]  [ 6:3381]  [ 7:3312]  [ 8:3278]  [ 9:3331]  [10:3259]  [11:3383]  [12:3329]  [13:3277]  [14:3300]  [15:3473]  [16:3274]  [17:3297]  [18:3318]  [19:3358]  [20:3269]  [21:3382]  [22:3290]  [23:3347]  [24:3352]  [25:3423]  [26:3405]  [27:3409]  [28:3359]  [29:3311]  
+
+Sort of sorted array of 100000 elements
+Start sort... End sort, Time taken: 0.000026 sec., CPU 800311 tacts
+Count of compares=0, Count of Swaps=100000
+[element:count]: [ 0:3372]  [ 1:3302]  [ 2:3299]  [ 3:3263]  [ 4:3343]  [ 5:3304]  [ 6:3381]  [ 7:3312]  [ 8:3278]  [ 9:3331]  [10:3259]  [11:3383]  [12:3329]  [13:3277]  [14:3300]  [15:3473]  [16:3274]  [17:3297]  [18:3318]  [19:3358]  [20:3269]  [21:3382]  [22:3290]  [23:3347]  [24:3352]  [25:3423]  [26:3405]  [27:3409]  [28:3359]  [29:3311]  
+
+Sort of revers-sorted array of 100000 elements
+Start sort... End sort, Time taken: 0.000026 sec., CPU 813582 tacts
+Count of compares=0, Count of Swaps=100000
+[element:count]: [ 0:3372]  [ 1:3302]  [ 2:3299]  [ 3:3263]  [ 4:3343]  [ 5:3304]  [ 6:3381]  [ 7:3312]  [ 8:3278]  [ 9:3331]  [10:3259]  [11:3383]  [12:3329]  [13:3277]  [14:3300]  [15:3473]  [16:3274]  [17:3297]  [18:3318]  [19:3358]  [20:3269]  [21:3382]  [22:3290]  [23:3347]  [24:3352]  [25:3423]  [26:3405]  [27:3409]  [28:3359]  [29:3311]  
+...End sort
+------------------------------------------------------------------
