@@ -24,10 +24,11 @@ class Coordinates {
     friend std::ostream& operator<<(std::ostream&, const Coordinates&);
     
     private:
+        static int coordCount;
+        
         double x, y;
     
     public:
-        static int coordCount;
         Coordinates();
         Coordinates(double x, double y=0);
         Coordinates(const Coordinates& other);

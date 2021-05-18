@@ -27,12 +27,12 @@ class Circle {
     friend std::ostream& operator<<(std::ostream&, const Circle&);
     
     private:
+        static int circleCount;
+        
         Coordinates centre;
         double r;
         
     public:
-        static int circleCount;
-        
         Circle();
         Circle(Coordinates& centre, double r=1);
         Circle(double x, double y, double r=1);
