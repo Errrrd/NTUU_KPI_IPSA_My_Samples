@@ -2,6 +2,7 @@
 #include <cmath>
 //#include <typeinfo>
 
+#include "helper.h"
 #include "coordinates.h"
 #include "circle.h"
 
@@ -60,19 +61,28 @@ Circle& Circle::setCentreXY(double x, double y) {
 
 // (y – cY)^2 = R^2 - (x – cX)^2
 void Circle::visCircle() const {
-    std::cout<<"----------------------------------------------------------------------\nVisualisation Circle, dependency [x, y1|y2]:\n";
-    double stepX = r / 10.0;
-    double startX = this->centre.getX() - r;
-    double endX = this->centre.getX() + r*1.00001;
-    for (double x = startX; x < endX; x=x+stepX) {
-        double powDiff = r*r - (x-this->centre.getX())*(x-this->centre.getX());
-        if (powDiff < 0.0) {powDiff = -powDiff;}
+        std::cout<<"----------------------------------------------------------------------\nVisualisation Circle, dependency [x, y]:\n";
+    // double stepX = r / 10.0;
+    // double startX = this->centre.getX() - r;
+    // double endX = this->centre.getX() + r*1.00001;
+    // for (double x = startX; x < endX; x=x+stepX) {
+        // double powDiff = r*r - (x-this->centre.getX())*(x-this->centre.getX());
+        // if (powDiff < 0.0) {powDiff = -powDiff;}
         
-        double shiftY = sqrt(powDiff);
-        std::cout   << '['  << x 
-                    << ", " << this->centre.getY() - shiftY 
-                    << '|'  << this->centre.getY() + shiftY 
-                    << "]; ";
+        // double shiftY = sqrt(powDiff);
+        // std::cout   << '['  << x 
+                    // << ", " << this->centre.getY() - shiftY 
+                    // << '|'  << this->centre.getY() + shiftY 
+                    // << "]; ";
+    // }
+    double stepAng = Trig::Pi / 10.0;
+    double endAng = Trig::Pi * 2.0;
+    int i=1;
+    for (double radAng = 0.0; radAng < endAng; radAng+=stepAng, i++) {
+        double coordX = this->centre.getX() + this->r * cos(radAng);
+        double coordY = this->centre.getY() + this->r * sin(radAng);
+        std::cout << '['  << coordX  << ", " << coordY << "], ";
+        if (i%5 == 0) {std::cout << '\n'; } 
     }
     std::cout<<"\n----------------------------------------------------------------------\n";
 }
