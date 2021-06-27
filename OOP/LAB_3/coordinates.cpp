@@ -56,13 +56,11 @@ bool Coordinates::operator!=(const Coordinates& other) const {
     return !(*this == other);
 }
 
-Coordinates& operator+(const Coordinates& other) {
-    double coordX = this->x + other.x;
-    double coordY = this->y + other.y;
-    return Coordinates(coordX,coordY);
+Coordinates Coordinates::operator+(const Coordinates& other) {
+    return Coordinates(this->x + other.x, this->y + other.y);
 }
 
-Coordinates& operator++() {
+Coordinates& Coordinates::operator++() {
     this->x += 1.0;
     this->y += 1.0;
     return *this;
@@ -104,8 +102,8 @@ out << '[' << coord.x << ", " << coord.y << ']';
     return out;
 }
 
-std::istream& operator>>() {
+std::istream& operator>>(std::istream& in, Coordinates& coord) {
     
-    in >> this->x >> this->y;
+    in >> coord.x >> coord.y;
     return in;
 }

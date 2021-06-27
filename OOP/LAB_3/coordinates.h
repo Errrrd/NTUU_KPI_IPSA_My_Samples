@@ -3,7 +3,7 @@
 
 class Coordinates {
     friend std::ostream& operator<<(std::ostream&, const Coordinates&);
-    friend std::istream& operator>>(std::istream&, const Coordinates&);
+    friend std::istream& operator>>(std::istream&, Coordinates&);
     
     private:
         static int coordCount;
@@ -21,7 +21,7 @@ class Coordinates {
         bool operator==(const Coordinates& other) const;
         bool operator!=(const Coordinates& other) const;
         
-        Coordinates& operator+(const Coordinates& other);
+        Coordinates operator+(const Coordinates& other);
         Coordinates& operator++();
         
         
@@ -40,7 +40,7 @@ class Coordinates {
 };
 
 std::ostream& operator<<(std::ostream&, const Coordinates&);
-std::istream& operator>>(std::istream&, const Coordinates&);
+std::istream& operator>>(std::istream&, Coordinates&);
 // - арифметичні оператори “+” та “++”для класу «Координати» за
 // значеннями одразу двох полів;
 // - оператори форматного уведення-виведення – для класів «Коло» та
