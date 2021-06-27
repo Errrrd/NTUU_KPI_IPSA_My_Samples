@@ -112,11 +112,11 @@ void Circle::visCircle() const {
     std::cout<<"\n----------------------------------------------------------------------\n";
 }
 
-void Circle::printCircleShort() const {
+void Circle::printShort() const {
     std::cout << this->centre.getX() << ' ' << this->centre.getY() << ' ' << this->r << '\n';
 }
 
-void Circle::printCircle() const {
+void Circle::print() const {
     //std::cout << typeid(*this).name() << ':' << *this <<'\n';
     std::cout << "Circle:" << *this <<'\n';
 }

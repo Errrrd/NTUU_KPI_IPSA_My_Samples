@@ -36,8 +36,8 @@ class PolygonIn : public Circle {
         
         void visPolygon() const;
         
-        void printPolygonShort() const;
-        void printPolygon() const;
+        void printShort() const;
+        void print() const;
         
         const std::vector<Coordinates>& getCoordVector() const;
         
@@ -79,8 +79,8 @@ class PolygonOut : public Circle {
         
         void visPolygon() const;
         
-        void printPolygonShort() const;
-        void printPolygon() const;
+        void printShort() const;
+        void print() const;
         
         virtual ~PolygonOut();
 };

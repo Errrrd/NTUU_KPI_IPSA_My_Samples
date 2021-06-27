@@ -123,12 +123,12 @@ void PolygonIn::visPolygon() const {
     std::cout<<"\n----------------------------------------------------------------------\n";
 }
 
-void PolygonIn::printPolygonShort() const {
+void PolygonIn::printShort() const {
     std::cout << this->getCentre() << ' ' << this->getR() << ' ' << this->sideCount << ' ' << '\n';
 }
 
-void PolygonIn::printPolygon() const {
-    std::cout << "PolygonOut:" << *this << '\n';
+void PolygonIn::print() const {
+    std::cout << "PolygonIn:" << *this << '\n';
 }
 
 const std::vector<Coordinates>& PolygonIn::getCoordVector() const {
@@ -270,11 +270,11 @@ void PolygonOut::visPolygon() const {
     std::cout<<"\n----------------------------------------------------------------------\n";
 }
 
-void PolygonOut::printPolygonShort() const {
+void PolygonOut::printShort() const {
     std::cout << this->getCentre() << ' ' << this->getR() << ' ' << this->sideCount << ' ' << this->polygonColor << '\n';
 }
 
-void PolygonOut::printPolygon() const {
+void PolygonOut::print() const {
     std::cout << "PolygonOut:" << *this <<'\n';
 }
 

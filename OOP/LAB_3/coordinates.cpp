@@ -60,10 +60,9 @@ Coordinates Coordinates::operator+(const Coordinates& other) {
     return Coordinates(this->x + other.x, this->y + other.y);
 }
 
-Coordinates& Coordinates::operator++() {
+void Coordinates::operator++(int a) {
     this->x += 1.0;
     this->y += 1.0;
-    return *this;
 }
 
 Coordinates& Coordinates::setX(double newX) {
@@ -80,11 +79,11 @@ double Coordinates::getDistance(const Coordinates& other) const {
     return hypot(this->x - other.x, this->y - other.y);
 }
 
-void Coordinates::printCoordShort() const {
+void Coordinates::printShort() const {
     std::cout << this->x << ' ' << this->y << '\n';
 }
 
-void Coordinates::printCoordinates() const {
+void Coordinates::print() const {
     //std::cout << typeid(*this).name() << ':' << *this <<'\n';
     std::cout << "Coordinates:" << *this <<'\n';
 }

@@ -33,8 +33,8 @@ class Circle {
         
         void visCircle() const;
         
-        void printCircleShort() const;
-        void printCircle() const;
+        void printShort() const;
+        void print() const;
         
         virtual ~Circle();
 };

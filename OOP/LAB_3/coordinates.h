@@ -22,7 +22,7 @@ class Coordinates {
         bool operator!=(const Coordinates& other) const;
         
         Coordinates operator+(const Coordinates& other);
-        Coordinates& operator++();
+        void operator++(int);
         
         
         Coordinates& setX(double newX);
@@ -33,8 +33,8 @@ class Coordinates {
         
         double getDistance(const Coordinates& other) const;
         
-        void printCoordShort() const;
-        void printCoordinates() const;
+        void printShort() const;
+        void print() const;
         
         ~Coordinates();
 };
