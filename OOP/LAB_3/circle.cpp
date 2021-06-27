@@ -60,6 +60,10 @@ Circle& Circle::operator=(Circle& other) {
     return *this;
 }
 
+bool Circle::operator==(const Circle& other) const {
+    return (this == &other) || (this->centre == other.centre && this->r == other.r );
+}
+
 double Circle::getR() const { return this->r; }
 
 const Coordinates& Circle::getCentre() const { return this->centre; }

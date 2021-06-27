@@ -56,6 +56,18 @@ bool Coordinates::operator!=(const Coordinates& other) const {
     return !(*this == other);
 }
 
+Coordinates& operator+(const Coordinates& other) {
+    double coordX = this->x + other.x;
+    double coordY = this->y + other.y;
+    return Coordinates(coordX,coordY);
+}
+
+Coordinates& operator++() {
+    this->x += 1.0;
+    this->y += 1.0;
+    return *this;
+}
+
 Coordinates& Coordinates::setX(double newX) {
     this->x = newX;
     return *this;
@@ -79,15 +91,21 @@ void Coordinates::printCoordinates() const {
     std::cout << "Coordinates:" << *this <<'\n';
 }
 
-std::ostream& operator<<(std::ostream& out, const Coordinates& coord) {
-out << '[' << coord.x << ", " << coord.y << ']';
-    return out;
-}
-
 Coordinates::~Coordinates() {
     --coordCount;
     if(bDebug) {
         std::cout << "Delete object Coordinates N" << numOfCoords << '\n';
         if (coordCount == 0) { std::cout << "All objects of class Coordinates was deleted\n"; }
     }
+}
+
+std::ostream& operator<<(std::ostream& out, const Coordinates& coord) {
+out << '[' << coord.x << ", " << coord.y << ']';
+    return out;
+}
+
+std::istream& operator>>() {
+    
+    in >> this->x >> this->y;
+    return in;
 }

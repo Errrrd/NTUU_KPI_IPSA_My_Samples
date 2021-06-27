@@ -93,6 +93,13 @@ void PolygonIn::createCoordinates() {
         visPolygon();
 }
 
+bool PolygonIn::operator==(const PolygonIn& other) const {
+    return ( this == &other ) ||
+           ( this->getCentre() == other.getCentre() &&
+             this->getR() == other.getR() &&
+             this->sideCount == other.sideCount );
+}
+
 PolygonIn& PolygonIn::setSideCount(int sides) {
     this->polygonCount = sides;
     return *this;
@@ -204,6 +211,11 @@ PolygonOut& PolygonOut::operator=(PolygonOut& other) {
         std::cout << "PolygonOut N" << numOfPolygon <<": Create via operator \"=\""<<'\n';
     return *this;
 }
+
+bool PolygonOut::operator<(const PolygonOut& other) const {
+    return ( this->sideCount < other.sideCount );
+}
+
 /*
     radiusIn = radiusOut * cos(Pi/n) => radiusOut = radiusIn / cos(Pi/n)
     for circle out of polygon:

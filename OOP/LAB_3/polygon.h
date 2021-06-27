@@ -17,8 +17,10 @@ class PolygonIn : public Circle {
         int numOfPolygon;
         int sideCount;
         std::vector<Coordinates> polyCoords;
-        
-        void createCoordinates(); 
+    
+    protected:
+        virtual void createCoordinates(); 
+    
     public:
         PolygonIn();
         PolygonIn(const Coordinates& centre, double r=1, int sides = 3);
@@ -26,6 +28,7 @@ class PolygonIn : public Circle {
         PolygonIn(const PolygonIn& other);
         
         PolygonIn& operator=(PolygonIn& other);
+        bool operator==(const PolygonIn& other) const;
 
         PolygonIn& setSideCount(int sides);
 
@@ -64,6 +67,7 @@ class PolygonOut : public Circle {
         PolygonOut(const PolygonOut& other);
         
         PolygonOut& operator=(PolygonOut& other);
+        bool operator<(const PolygonOut& other) const;
         
         PolygonOut& setSideCount(int sides);
         PolygonOut& setColor(const Color& newColor);
