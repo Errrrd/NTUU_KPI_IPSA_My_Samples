@@ -53,7 +53,7 @@ int main(int argsCount, char *argsValues[]) {
 
     cout<<"\n\nCreate Color 1\n";
     Color col1(0.1f,0.5f,0.5f);
-    
+    cout << "\n-------------------------------------------------------------------------\n";
     cout<<"\n\nCreate polygon in 1:\n";
     PolygonIn pli1;
     pli1.visPolygon();
@@ -62,7 +62,7 @@ int main(int argsCount, char *argsValues[]) {
     PolygonIn pli2(x-2, y-1, r-1, 4);
     pli2.visPolygon();
     pli2.printShort();
-    
+    cout << "\n-------------------------------------------------------------------------\n";
     cout << "\nCreate polygon out 3 from polygon in 2 via \"=\" :\n";
     PolygonOut plo3 = pli2;
     plo3.visPolygon();
@@ -80,7 +80,7 @@ int main(int argsCount, char *argsValues[]) {
     PolygonOut plo2(x-1,y+1, r+3, 6, col1);
     plo2.visPolygon();
     plo2.printShort();
-
+    cout << "\n-------------------------------------------------------------------------\n";
     cout << "\nCreate polygon in 3 from polygon out 2 via \"=\" :\n";
     PolygonOut pli3 = plo2;
     pli3.visPolygon();
@@ -89,7 +89,7 @@ int main(int argsCount, char *argsValues[]) {
     PolygonOut pli4(plo2);
     pli4.visPolygon();
     pli4.printShort();
-    
+    cout << "\n-------------------------------------------------------------------------\n";
     cout << "\nCreate Image 1:\n";
     Image img1;
     cout << img1 <<endl;
@@ -101,8 +101,7 @@ int main(int argsCount, char *argsValues[]) {
     cout << img1 <<endl;
     cout << "print method img1:\n";
     img1.print();
-
-
+    cout << "\n-------------------------------------------------------------------------\n";
     cout << "\nCreate Image 2:\n";
     Image img2(cr1);
     cout << img2 <<endl;
