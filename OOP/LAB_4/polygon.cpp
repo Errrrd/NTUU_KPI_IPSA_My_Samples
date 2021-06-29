@@ -56,6 +56,18 @@ PolygonIn::PolygonIn(const PolygonIn& other)
     // for (std::vector<Coordinates>::iterator it = other.polyCoords.begin(); it != other.polyCoords.end(); it++) {
         // this->polyCoords.push_back(*it);
     // }
+    createCoordinates();
+}
+
+PolygonIn::PolygonIn(const PolygonOut& other)
+    : Circle(other)
+    , sideCount(other.getSideCount())
+{
+    polygonCount++;
+    numOfPolygon = polygonCount;
+    createCoordinates();
+    if (bDebug)
+        std::cout << "PolygonIn N" << numOfPolygon << ": Create from PolygonOut via \"Copy\"; sides:" << sideCount << ", Centre:" << getCentre() << '\n';
 }
 
 PolygonIn& PolygonIn::operator=(PolygonIn& other) {
@@ -68,6 +80,17 @@ PolygonIn& PolygonIn::operator=(PolygonIn& other) {
     }
     if(bDebug)
         std::cout << "PolygonIn N" << numOfPolygon <<": Create via operator \"=\""<<'\n';
+    return *this;
+}
+
+PolygonIn& PolygonIn::operator=(PolygonOut& other) {
+    Circle::operator=(other);
+    this->sideCount = other.getSideCount();
+    createCoordinates();
+    polygonCount++;
+    numOfPolygon = polygonCount;
+    if (bDebug)
+        std::cout << "PolygonIn N" << numOfPolygon << ": Create from PolygonOut via operator \"=\"; sides:" << sideCount << ", Centre : " << getCentre() << '\n';
     return *this;
 }
 
@@ -101,11 +124,11 @@ bool PolygonIn::operator==(const PolygonIn& other) const {
 }
 
 PolygonIn& PolygonIn::setSideCount(int sides) {
-    this->polygonCount = sides;
+    this->sideCount = sides;
     return *this;
 }
 
-int PolygonIn::getSideCount() const { return this->polygonCount; }
+int PolygonIn::getSideCount() const { return this->sideCount; }
 
 void PolygonIn::visPolygon() const {
     std::cout<<"----------------------------------------------------------------------\n";
@@ -198,8 +221,20 @@ PolygonOut::PolygonOut(const PolygonOut& other)
         std::cout <<  "PolygonOut N" << numOfPolygon <<": Create by copy from " << other <<'\n';
 }
 
+PolygonOut::PolygonOut(const PolygonIn& other)
+    : Circle(other)
+    , sideCount(other.getSideCount())
+{
+    polygonCount++;
+    numOfPolygon = polygonCount;
+    polygonColor = { 0.0f,0.0f,0.0f };
+    createCoordinates();
+    if (bDebug)
+        std::cout << "PolygonOut N" << numOfPolygon << ": Create from PolygonIn via \"Copy\"; sides:" << sideCount << ", Centre:" << getCentre() << '\n';
+}
+
 PolygonOut& PolygonOut::operator=(PolygonOut& other) {
-    if ( this != &other ) {
+    if (this != &other) {
         Circle::operator=(other);
         this->sideCount = other.sideCount;
         this->polygonColor = other.polygonColor;
@@ -209,6 +244,18 @@ PolygonOut& PolygonOut::operator=(PolygonOut& other) {
     }
     if(bDebug)
         std::cout << "PolygonOut N" << numOfPolygon <<": Create via operator \"=\""<<'\n';
+    return *this;
+}
+
+PolygonOut& PolygonOut::operator=(PolygonIn& other) {
+    Circle::operator=(other);
+    this->sideCount = other.getSideCount();
+    this->polygonColor = { 0.0f,0.0f,0.0f };
+    polygonCount++;
+    numOfPolygon = polygonCount;
+    createCoordinates();
+    if (bDebug)
+        std::cout << "PolygonOut N" << numOfPolygon << ": Create from PolygonIn via operator \"=\"; sides:" << sideCount << ", Centre : " << getCentre() << '\n';
     return *this;
 }
 
@@ -240,11 +287,11 @@ void PolygonOut::createCoordinates() {
 }
 
 PolygonOut& PolygonOut::setSideCount(int sides) {
-    this->polygonCount = sides;
+    this->sideCount = sides;
     return *this;
 }
 
-int PolygonOut::getSideCount() const { return this->polygonCount; }
+int PolygonOut::getSideCount() const { return this->sideCount; }
 
 const Color& PolygonOut::getColor() const { return this->polygonColor; }
 

@@ -62,6 +62,15 @@ int main(int argsCount, char *argsValues[]) {
     PolygonIn pli2(x-2, y-1, r-1, 4);
     pli2.visPolygon();
     pli2.printShort();
+    
+    cout << "\nCreate polygon out 3 from polygon in 2 via \"=\" :\n";
+    PolygonOut plo3 = pli2;
+    plo3.visPolygon();
+    plo3.printShort();
+    cout << "\nCreate polygon out 3 from polygon in 2 via \"Copy\" constructor :\n";
+    PolygonOut plo4(pli2);
+    plo4.visPolygon();
+    plo4.printShort();
 
     cout << "\n\nCreate polygon out 1:\n";
     PolygonOut plo1;
@@ -72,6 +81,15 @@ int main(int argsCount, char *argsValues[]) {
     plo2.visPolygon();
     plo2.printShort();
 
+    cout << "\nCreate polygon in 3 from polygon out 2 via \"=\" :\n";
+    PolygonOut pli3 = plo2;
+    pli3.visPolygon();
+    pli3.printShort();
+    cout << "\nCreate polygon in 3 from polygon out 2 via \"Copy\" constructor :\n";
+    PolygonOut pli4(plo2);
+    pli4.visPolygon();
+    pli4.printShort();
+    
     cout << "\nCreate Image 1:\n";
     Image img1;
     cout << img1 <<endl;
