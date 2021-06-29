@@ -59,7 +59,7 @@ int main(int argsCount, char *argsValues[]) {
     cout << "\nCreate polygon in 3:\n";
     PolygonIn pli3(cntr1, r, 5);
     pli3.visPolygon();
-    cout << "\nCreate polygon in 4:\n";
+    cout << "\nCreate polygon in 4 (Copy constructor from 1):\n";
     PolygonIn pli4(pli1);
     pli4.visPolygon();
 
@@ -72,8 +72,8 @@ int main(int argsCount, char *argsValues[]) {
     cout << "\nCreate polygon out 3:\n";
     PolygonOut plo3(cntr1, r, 7, col1);
     plo3.visPolygon();
-    cout << "\nCreate polygon in 4:\n";
-    PolygonOut plo4(plo1);
+    cout << "\nCreate polygon in 4 (Copy constructor from 2) :\n";
+    PolygonOut plo4(plo2);
     plo4.visPolygon();
     
     cout << "\nPolygonOut 2 " << plo2 << " < PoligonOut 3 " << plo3 <<":\n" << ((plo2 < plo3) ? "It is true" : "It is false") << '\n';

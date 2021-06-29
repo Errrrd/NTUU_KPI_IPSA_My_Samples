@@ -94,11 +94,11 @@ void PolygonIn::createCoordinates() {
 }
 
 PolygonIn& PolygonIn::setSideCount(int sides) {
-    this->polygonCount = sides;
+    this->sideCount = sides;
     return *this;
 }
 
-int PolygonIn::getSideCount() const { return this->polygonCount; }
+int PolygonIn::getSideCount() const { return this->sideCount; }
 
 void PolygonIn::visPolygon() const {
     std::cout<<"----------------------------------------------------------------------\n";
@@ -228,11 +228,11 @@ void PolygonOut::createCoordinates() {
 }
 
 PolygonOut& PolygonOut::setSideCount(int sides) {
-    this->polygonCount = sides;
+    this->sideCount = sides;
     return *this;
 }
 
-int PolygonOut::getSideCount() const { return this->polygonCount; }
+int PolygonOut::getSideCount() const { return this->sideCount; }
 
 const Color& PolygonOut::getColor() const { return this->polygonColor; }
 
