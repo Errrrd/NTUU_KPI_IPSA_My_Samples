@@ -126,6 +126,11 @@ out << '(' << circle.centre << ", R:" << circle.r << ')';
     return out;
 }
 
+std::istream& operator>>(std::istream& in, Circle& circle) {
+    in >> circle.centre >> circle.r;
+    return in;
+}
+
 Circle::~Circle() {
     --circleCount;
     if(bDebug) {

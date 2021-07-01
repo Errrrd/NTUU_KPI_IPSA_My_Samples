@@ -102,7 +102,6 @@ out << '[' << coord.x << ", " << coord.y << ']';
 }
 
 std::istream& operator>>(std::istream& in, Coordinates& coord) {
-    
     in >> coord.x >> coord.y;
     return in;
 }

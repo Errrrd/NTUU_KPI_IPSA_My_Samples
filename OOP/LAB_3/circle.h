@@ -6,6 +6,7 @@ class Coordinates;
 
 class Circle {
     friend std::ostream& operator<<(std::ostream&, const Circle&);
+    friend std::istream& operator>>(std::istream&, Circle&);
     
     private:
         static int circleCount;
@@ -40,5 +41,6 @@ class Circle {
 };
 
 std::ostream& operator<<(std::ostream&, const Circle&);
+std::istream& operator>>(std::istream&, Circle&);
 
 #endif

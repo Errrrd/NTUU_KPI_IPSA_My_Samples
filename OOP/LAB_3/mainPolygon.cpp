@@ -81,5 +81,18 @@ int main(int argsCount, char *argsValues[]) {
     cout << "\nPolygonIn 2 " << pli2 << " == PoligonIn 3 " << pli3 <<":\n"  << ((pli2 == pli3) ? "It is true" : "It is false") << '\n';
     cout << "\nPolygonIn 1 " << pli1 << " == PoligonIn 4 " << pli4 <<":\n" << ((pli1 == pli4) ? "It is true" : "It is false") << '\n';
     
+    cout<<"\nCoordinates 4 via \"cin >>\" please insert x y (space separator):\n";
+    Coordinates cntr4;
+    cin >> cntr4;
+    cout<<cntr4<<'\n';
+    
+    cout<<"\nCircle 2 via \"cin >>\" please insert x y r (space separator):\n";
+    Circle cr2;
+    cin >> cr2;
+    cout<<cr2<<'\n';
+    cr2.printShort();
+    cr2.print();
+    cr2.visCircle();
+    
     return 0;
 }
