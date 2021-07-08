@@ -116,7 +116,7 @@ int main(int argsCount, char *argsValues[]) {
     img2.printShort();
     cout << "\nprint method img2:\n";
     img2.print();
-    cout << "\nprint idx 2 of img2:\n";
+    cout << "\nprint idx 3 of img2:\n";
     img2[3].print();
 
     return 0;
