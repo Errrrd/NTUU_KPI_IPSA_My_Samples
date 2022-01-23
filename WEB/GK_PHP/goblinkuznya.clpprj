@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="F:\Work_Study\Garik_site\GK_PHP\goblinkuznya.clpprj">
+	<settings><PM_URL><![CDATA[C:/Users/Erd/AppData/Roaming/ClPhpEd/Projects/]]></PM_URL><PM_HOME_URL><![CDATA[C:/Users/Erd/AppData/Roaming/ClPhpEd/Projects/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\index.php"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\sidebar.php"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\style.css"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\head.php"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\header.php"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\script.php"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\sidebar_1.php"/>
+	</lastopfiles>
+	<errors version="5.3">
+		<errfile name="F:\Work_Study\Garik_site\GK_PHP\includes\script.php">
+			<error val="9;2;31;2;2002;1;"/>
+			<error val="9;25;31;25;2002;1;"/>
+			<error val="9;30;31;30;2002;1;"/>
+		</errfile>
+		<errfile name="F:\Work_Study\Garik_site\GK_PHP\index.php">
+			<error val="98;9;132;9;2002;1;"/>
+			<error val="66;9;83;9;2002;1;"/>
+			<error val="85;9;97;9;2002;1;"/>
+			<error val="54;9;63;9;2002;1;"/>
+			<error val="54;10;88;10;2002;1;"/>
+			<error val="96;93;130;93;2002;1;"/>
+			<error val="66;93;82;93;2002;1;"/>
+			<error val="83;93;95;93;2002;1;"/>
+			<error val="54;93;63;93;2002;1;"/>
+		</errfile>
+	</errors>
+	<codestructure version="5.0">
+		<phptree>
+			<treenode node="includes/footer.php;PHP:PHP Include;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f27;97;46;97;;F:\Work_Study\Garik_site\GK_PHP\index.php;f27;95;46;95;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="includes/head.php;PHP:PHP Include;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f19;2;36;2;;F:\Work_Study\Garik_site\GK_PHP\index.php;f19;2;36;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="includes/header.php;PHP:PHP Include;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f27;6;46;6;;F:\Work_Study\Garik_site\GK_PHP\index.php;f27;6;46;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="includes/script.php;PHP:PHP Include;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f23;4;42;4;;F:\Work_Study\Garik_site\GK_PHP\index.php;f23;4;42;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="includes/sidebar.php;PHP:PHP Include;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f27;7;47;7;;F:\Work_Study\Garik_site\GK_PHP\index.php;f27;7;47;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="variables/variables.php;PHP:PHP Include;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\includes\script.php;f15;0;38;0;;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f15;0;38;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="_GET;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f15;15;20;15;;F:\Work_Study\Garik_site\GK_PHP\index.php;f15;14;20;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="contacts;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\variables\variables.php;f1;2;10;2;;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f20;85;29;85;;F:\Work_Study\Garik_site\GK_PHP\variables\variables.php;f1;2;10;2;;F:\Work_Study\Garik_site\GK_PHP\index.php;f20;84;29;84;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="content;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\variables\variables.php;f1;1;9;1;;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f20;83;28;83;;F:\Work_Study\Garik_site\GK_PHP\variables\variables.php;f1;1;9;1;;F:\Work_Study\Garik_site\GK_PHP\index.php;f20;82;28;82;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="d;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f8;19;10;19;;F:\Work_Study\Garik_site\GK_PHP\index.php;f8;18;10;18;;;;vposDirectory;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="fp;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f24;33;27;33;;F:\Work_Study\Garik_site\GK_PHP\index.php;f24;32;27;32;;;;vposresource;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="FullName;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f16;24;25;24;;F:\Work_Study\Garik_site\GK_PHP\index.php;f16;23;25;23;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="html_txt;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f38;21;47;21;;F:\Work_Study\Garik_site\GK_PHP\index.php;f38;20;47;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="i;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f12;58;14;58;;F:\Work_Study\Garik_site\GK_PHP\index.php;f12;57;14;57;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="img_files;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f12;21;22;21;;F:\Work_Study\Garik_site\GK_PHP\index.php;f12;20;22;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="is4;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f12;60;16;60;;F:\Work_Study\Garik_site\GK_PHP\index.php;f12;59;16;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="jrn;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\variables\variables.php;f1;3;5;3;;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f20;87;24;87;;F:\Work_Study\Garik_site\GK_PHP\variables\variables.php;f1;3;5;3;;F:\Work_Study\Garik_site\GK_PHP\index.php;f20;86;24;86;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="name;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f20;22;25;22;;F:\Work_Study\Garik_site\GK_PHP\index.php;f20;21;25;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="path1;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f8;16;14;16;;F:\Work_Study\Garik_site\GK_PHP\index.php;f8;15;14;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="path2;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f17;16;23;16;;F:\Work_Study\Garik_site\GK_PHP\index.php;f17;15;23;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="size;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f8;46;13;46;;F:\Work_Study\Garik_site\GK_PHP\index.php;f8;45;13;45;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="txt;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f20;28;24;28;;F:\Work_Study\Garik_site\GK_PHP\index.php;f20;27;24;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+			<treenode node="txt_files;PHP:Var Name;F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php;f25;21;35;21;;F:\Work_Study\Garik_site\GK_PHP\index.php;f25;20;35;20;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</phptree>
+		<jstree>
+			<treenode node="doMenu;JS:Function Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f0;3;7;12;;;;vpos;;v;;r;;d33,3;;b0,0;;mAObjIndex;;p">
+				<treenode node="AObjIndex;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f22;3;31;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="document;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f21;4;29;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="subObj;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f12;4;18;4;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="style;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f20;6;25;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+						<treenode node="display;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f26;6;33;6;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+						</treenode>
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="doMenu1;JS:Function Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f0;13;7;22;;;;vpos;;v;;r;;d34,13;;b0,0;;mAObjIndex;;p">
+				<treenode node="AObjIndex;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f23;13;32;13;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="document;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f21;14;29;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="subObj;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f12;14;18;14;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+					<treenode node="style;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f20;16;25;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+						<treenode node="display;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f26;16;33;16;;;;vposString;;v;;r;;d-1,-1;;b0,0;;m">
+						</treenode>
+					</treenode>
+				</treenode>
+			</treenode>
+			<treenode node="doPopup;JS:Function Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f0;31;5;34;;;;vpos;;v;;r;;d32,31;;b0,0;;mpopupPath;;p">
+				<treenode node="popupPath;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f21;31;30;31;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+				<treenode node="window;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f4;32;10;32;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+				</treenode>
+			</treenode>
+			<treenode node="document;JS:JS Var Name;F:\Work_Study\Garik_site\GK_PHP\includes\script.php;f6;26;14;26;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			</treenode>
+		</jstree>
+		<scsstree>
+		</scsstree>
+		<lesstree>
+		</lesstree>
+	</codestructure><cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\variables\variables.php" crc="509133641"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\variables\variables.php" crc="509133641"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\includes\sidebar_1.php" crc="1488975918"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\includes\sidebar.php" crc="176072605"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\includes\script.php" crc="-333274571"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\includes\header.php" crc="-1882724439"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\includes\head.php" crc="-179132397"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\includes\footer.php" crc="1706092274"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\tmk\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\tmk\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\tmk\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\9.txt" crc="-1823001060"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\8.txt" crc="-1372119124"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\7.txt" crc="744982653"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\6.txt" crc="285712845"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\5.txt" crc="1453841181"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\4.txt" crc="1808265901"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\13.txt" crc="1629596683"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\10.txt" crc="646043355"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\ruki\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_V.txt" crc="6334493"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_010.txt" crc="-786551443"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_009.txt" crc="391290041"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_008.txt" crc="707966217"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_007.txt" crc="-1469963560"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_006.txt" crc="-1795028120"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_005.txt" crc="-761105992"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_004.txt" crc="-272476152"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_003.txt" crc="1575126040"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_002.txt" crc="1619176872"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\PL_001.txt" crc="656594808"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\9.txt" crc="-1823001060"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\12.txt" crc="1547797947"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\11.txt" crc="467795819"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\plechi\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\nogi\text\4.txt" crc="1808265901"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\nogi\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\nogi\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\nogi\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\9.txt" crc="-1823001060"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\8.txt" crc="-1372119124"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\7.txt" crc="744982653"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\6.txt" crc="285712845"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\5.txt" crc="1453841181"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\4.txt" crc="1808265901"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\11.txt" crc="467795819"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\10.txt" crc="646043355"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\korpus\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\komplekt\text\5.txt" crc="1453841181"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\komplekt\text\4.txt" crc="1808265901"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\komplekt\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\komplekt\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\komplekt\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\kisti\text\04.txt" crc="1762511831"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\kisti\text\03.txt" crc="-1600276517"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\kisti\text\02.txt" crc="-462899558"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\kisti\text\01.txt" crc="-502501464"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\31.txt" crc="1445551712"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\30.txt" crc="1799976912"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\29.txt" crc="-1392130556"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\28.txt" crc="-1872367692"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\27.txt" crc="305494117"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\26.txt" crc="794120661"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\25.txt" crc="1760897797"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\24.txt" crc="1435828917"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\23.txt" crc="-407511387"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\22.txt" crc="-623511787"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\21.txt" crc="-1653240379"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\20.txt" crc="-1609194379"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\19.txt" crc="730969258"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\18.txt" crc="384933146"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\17.txt" crc="-1801385269"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\16.txt" crc="-1446960261"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\15.txt" crc="-295609941"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\14.txt" crc="-754880485"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\13.txt" crc="1629596683"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\12.txt" crc="1547797947"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\11.txt" crc="-144815394"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\10.txt" crc="1110853034"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\09.txt" crc="2022615865"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\08.txt" crc="179384220"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\07.txt" crc="-1712376680"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\06.txt" crc="1119237826"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\05.txt" crc="846733897"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\04.txt" crc="1979362286"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\03.txt" crc="728054485"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\02.txt" crc="1502969172"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\golova\text\01.txt" crc="2077086104"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\journals.php" crc="-1812598519"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\content.php" crc="-513379539"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\content\contacts.php" crc="1499162669"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\style.css" crc="1973960023"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\php.php" crc="-1699647520"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\SITE_V1\index.php" crc="-910719758"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\sidebar_1.php" crc="1488975918"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\sidebar.php" crc="176072605"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\script.php" crc="-333274571"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\header.php" crc="-1882724439"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\head.php" crc="-179132397"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\includes\footer.php" crc="1706092274"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\tmk\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\tmk\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\tmk\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\9.txt" crc="-1823001060"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\8.txt" crc="-1372119124"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\7.txt" crc="744982653"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\6.txt" crc="285712845"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\5.txt" crc="1453841181"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\4.txt" crc="1808265901"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\13.txt" crc="1629596683"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\10.txt" crc="646043355"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\ruki\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_V.txt" crc="6334493"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_010.txt" crc="-786551443"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_009.txt" crc="391290041"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_008.txt" crc="707966217"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_007.txt" crc="-1469963560"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_006.txt" crc="-1795028120"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_005.txt" crc="-761105992"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_004.txt" crc="-272476152"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_003.txt" crc="1575126040"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_002.txt" crc="1619176872"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\PL_001.txt" crc="656594808"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\9.txt" crc="-1823001060"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\12.txt" crc="1547797947"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\11.txt" crc="467795819"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\plechi\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\nogi\text\4.txt" crc="1808265901"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\nogi\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\nogi\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\nogi\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\9.txt" crc="-1823001060"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\8.txt" crc="-1372119124"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\7.txt" crc="744982653"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\6.txt" crc="285712845"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\5.txt" crc="1453841181"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\4.txt" crc="1808265901"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\11.txt" crc="467795819"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\10.txt" crc="646043355"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\korpus\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\komplekt\text\5.txt" crc="1453841181"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\komplekt\text\4.txt" crc="1808265901"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\komplekt\text\3.txt" crc="-639160643"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\komplekt\text\2.txt" crc="-460912883"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\komplekt\text\1.txt" crc="-1557692963"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\kisti\text\04.txt" crc="1762511831"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\kisti\text\03.txt" crc="-1600276517"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\kisti\text\02.txt" crc="-462899558"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\kisti\text\01.txt" crc="-502501464"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\31.txt" crc="1445551712"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\30.txt" crc="1799976912"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\29.txt" crc="-1392130556"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\28.txt" crc="-1872367692"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\27.txt" crc="305494117"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\26.txt" crc="794120661"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\25.txt" crc="1760897797"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\24.txt" crc="1435828917"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\23.txt" crc="-407511387"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\22.txt" crc="-623511787"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\21.txt" crc="-1653240379"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\20.txt" crc="-1609194379"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\19.txt" crc="730969258"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\18.txt" crc="384933146"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\17.txt" crc="-1801385269"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\16.txt" crc="-1446960261"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\15.txt" crc="-295609941"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\14.txt" crc="-754880485"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\13.txt" crc="1629596683"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\12.txt" crc="1547797947"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\11.txt" crc="-144815394"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\10.txt" crc="1110853034"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\09.txt" crc="2022615865"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\08.txt" crc="179384220"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\07.txt" crc="-1712376680"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\06.txt" crc="1119237826"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\05.txt" crc="846733897"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\04.txt" crc="1979362286"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\03.txt" crc="728054485"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\02.txt" crc="1502969172"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\golova\text\01.txt" crc="2077086104"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\journals.php" crc="-1812598519"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\content.php" crc="-513379539"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\content\contacts.php" crc="1499162669"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\style.css" crc="-1637635124"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\php.php" crc="-1699647520"/>
+		<file name="F:\Work_Study\Garik_site\GK_PHP\index.php" crc="386472449"/>
+	</filescache>
+</project>
