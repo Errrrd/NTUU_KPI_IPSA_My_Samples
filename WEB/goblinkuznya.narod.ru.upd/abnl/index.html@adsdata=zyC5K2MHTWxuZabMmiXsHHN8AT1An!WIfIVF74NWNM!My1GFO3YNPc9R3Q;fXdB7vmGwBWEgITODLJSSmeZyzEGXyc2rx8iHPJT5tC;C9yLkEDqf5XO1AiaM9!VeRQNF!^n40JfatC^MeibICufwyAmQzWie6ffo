@@ -1,0 +1,29 @@
+document.write('<div style="width:0px;height:0px;position:fixed;right:0px;top:0px;display:none;overflow:hidden;z-index:10000;" id="dVagDroi"><scr'+'ipt type="text/javascript" src="/abnl/?adsdata=JVSk8pLWDzhepS7iwuFCNLYFDmiPL7YcBWV8j!OZniGZSaIqnAOwzK0uMsYHV3qEBvDAWZSwEjKfNfjasS7HpiC2BPgxEVqDFduDQSuyQR8Slvyde4Ou4qKjAj513c60G^82DEpsOwUl!woo"></scr'+'ipt></div>');
+function resizeDiv(){
+	var WX,WY,BX,BY;
+	var o=document.getElementById("dVagDroi"),t,d;
+	if (!o) return;
+	if (!(t=document.getElementById("wrapperXagDroi"))) WX=0;
+	else WX=t.value;
+	if (!(t=document.getElementById("wrapperYagDroi"))) WY=0;
+	else WY=t.value;
+	if (!(t=document.getElementById("bannerXagDroi"))) BX=0;
+	else BX=t.value;
+	if (!(t=document.getElementById("bannerYagDroi"))) BY=0;
+	else BY=t.value;
+	d=document.getElementById("mainadsdvagDroi");
+	if (d) {
+		if (BX<0) d.style.width="100%";
+		else if (BX>0) d.style.width=BX+"px";
+		if (BY<0) d.style.height="100%";
+		else if (BY>0) d.style.height=BY+"px";
+	}
+	BX=parseInt(BX)+parseInt(WX);
+	BY=parseInt(BY)+parseInt(WY);
+	if (BX<0) o.style.width="100%";
+	else if (BX>0) o.style.width=BX+"px";
+	if (BY<0) o.style.height="100%";
+	else if (BY>0) o.style.height=BY+"px";
+	o.style.display='';
+}
+document.write('<scr'+'ipt type="text/javascript">resizeDiv();</scr'+'ipt>');new Image().src = "http://counter.yadro.ru/hit;narodadst2?r"+escape(document.referrer)+((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";"+Math.random();
